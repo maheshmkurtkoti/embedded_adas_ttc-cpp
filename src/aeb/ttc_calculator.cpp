@@ -2,7 +2,7 @@
 
 namespace adas::aeb {
 
-    adas::core::TtcResult TtcCalculator::computeTtc (const adas::core::Track& track) const 
+    adas::core::TtcResult TtcCalculator::computeTtc (const adas::core::Track& track) const // what is significance of ending with const here?
     {
         adas::core::TtcResult result{};
         result.track_id = track.id;
@@ -24,3 +24,6 @@ namespace adas::aeb {
 
     }
 } // namesapce adas::aeb
+
+// QnA
+// what all concepts of c++ and design are covered in this code?

@@ -27,3 +27,6 @@ namespace adas::sensors {
         return "RadarSensor";
     }
 } // namespace adas::sensors
+
+// QnA
+// what all concepts of c++ and design are covered in this code?

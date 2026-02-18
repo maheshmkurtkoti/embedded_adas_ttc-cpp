@@ -5,7 +5,7 @@ namespace adas::aeb {
     {
         float min_ttc = 999.0F;
 
-        for (const auto& r : ttc_results) //interesting for loop
+        for (const auto& r : ttc_results) //How does this for lop work ?
         {
             if (r.ttc_seconds < min_ttc)
             {
@@ -79,3 +79,7 @@ namespace adas::aeb {
         }
     }
 } // namespace adas::aeb
+
+// QnA
+// what all concepts of c++ and design are covered in this code?
+// what is auto keyword?How can it used? when is it need?

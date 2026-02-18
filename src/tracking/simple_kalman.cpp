@@ -33,3 +33,5 @@ namespace adas::tracking {
     }
 
 } // namespace adas::tracking
+// QnA
+// what all concepts of c++ and design are covered in this code

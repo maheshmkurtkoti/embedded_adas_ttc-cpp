@@ -19,5 +19,7 @@ namespace adas::core {
         float confidence{0.0F};
         TimestampMs timestamp{0U};
     };
-    
+
 } // namespace adas::core
+// QnA
+// what all concepts of c++ and design are covered in this code?

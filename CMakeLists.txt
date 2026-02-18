@@ -15,4 +15,4 @@ add_library(adas_lib ${SRC_FILES})
 
 #Demo executable
 add_executable(pipeline_demo examples/pipeline_demo.cpp)
-traget_link_libraries(pipeline_demo adas_lib)
+target_link_libraries(pipeline_demo adas_lib)
